@@ -41,8 +41,6 @@ cars(["BMW", "Volvo", "Kia", "VW"])
 
 //IIFE Function
 // console.log("==================IIFE Function==============")
-(function(myCars) {
-    for(i = 0; i < myCars.length; i++){
-        console.log(myCars[i])
-    }
-}) (["BMW", "Volvo", "Kia", "VW"])
+(function(){
+    console.log("hello how are you")
+  })() //"hello how are you"
